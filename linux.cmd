@@ -1,4 +1,4 @@
-Linux cmd
+Linux cmds
 
 man - Shows the manual
 Date - Gives date info
