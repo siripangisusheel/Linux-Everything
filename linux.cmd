@@ -76,3 +76,6 @@ Alt + n Alt + . use the nth word of the previous command
 Ctrl + c Stop the current job
 Ctrl + z Suspend the current job (send a SIGTSTP signal)
 Ctrl + L clear screen
+pstree -p To list the parent and child process 
+ps -ef (ps command lists all the running processes along with their details such as the UID, PID, PPID, etc)
+ps -fu <username> (command in Linux is used to display information about running processes of specific user)
