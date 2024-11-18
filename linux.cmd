@@ -175,4 +175,20 @@ sed -n '/[AC]/p' names
 sed -n '/[AC]/p' names
 sed -n '/^[A-D]/p' names -To see names start with only A to D
 
-
+GREP COMMAND
+grep -i "keyword" file -To ignore the upper and lower case while searching 
+grep -v "keyword" file -To search everything except given pattern/keyword
+grep -c "keyword" file -To print how many times (count) given keyword present in the file
+grep -w "keyword" file - To search exact match of given keyword present in the file
+grep -n "keyword" file -To print the line numbers of the given keyword in a file 
+grep "keyword" file1 file2.. -To search the given keyword in multiple files 
+grep -h "keyword" file1 file2.. -To supress file names while search a given keyword in multiple files
+grep -e "keyword1" -e "keyword2" file - To search multipe keywords in a file
+grep -l "keyword" file -To only print file names which matches given keywords
+grep -f "keyword" file -To get the keywords/pattern from a file and match with another file 
+grep "^keyword" file -To print the matching line with the given keyword
+grep "keyword$" file -To print the matching line which end with the given keyword
+grep -R "keyword" dirA/ - suppose we have 100 file in a directory (dirA) and we need 
+egrep "key1|key2|key3" file -We can use egrep command for the multiple keyword search 
+grep -q "keyword" file -If you just wanna search but dont want to print on terminal
+grep -s "keyword" file -If you want to suppress error message 
