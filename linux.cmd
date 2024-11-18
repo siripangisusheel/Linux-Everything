@@ -79,3 +79,29 @@ Ctrl + L clear screen
 pstree -p To list the parent and child process 
 ps -ef (ps command lists all the running processes along with their details such as the UID, PID, PPID, etc)
 ps -fu <username> (command in Linux is used to display information about running processes of specific user)
+
+AWK COMMAND
+awk '{print $2}' file_name - To see column 2 or 3
+awk '{print $2,$3}' file_name - To see multiple coulumns
+awk '{print $NF}' file_name - To see last column
+awk '{print NR}' file_name - To see line no
+awk '{print NR "- " $2}' file_name -To see line no. with -
+awk -F, '{print $7}' country.txt -To get a column from CSV
+awk '{if($2=="Pol"){$3="90000"} print $0}' file_name -To change the salary of Pol
+awk '{if($3>40000) print $0}' file_name -To see data of users whose salary is more than 40000
+awk 'length($0)>15' file_name -To see a line whose length of character is more than 15
+awk '/India/ {print}' file_name -To see data of Indian users
+awk 'NR==3 {print}' file_name -To see a specific line example 3rd line
+awk 'NR==3,NR==5 {print}' -To see range of lines, 3 to 5th line
+awk 'NF==0 {print NR}' file_name -To see which lines are empty
+awk 'END {print NR}' file_name -To check no. of lines in the file
+awk 'BEGIN {for(i=0;i<=10;i++) print i;}' -To use for loop in AWK command
+awk 'BEGIN {while(i<10){ i++; print "Num is " i;}}' -To use while loop in AWK command
+
+CUT COMMAND
+cut -c2 file_name -To see only 2nd char
+cut -c1-4 file_name -To see 1 to 4 char
+cut -c2,3 file_name -To see only 2 and 4th char
+cut -d: -f 3 file_name  -To see data from CSV
+cut -d, -f 1- country.txt --output-delimiter="|" -To change the delimeter of output
+
