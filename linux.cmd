@@ -1,5 +1,5 @@
-Linux cmds
-
+Linux All Commands 
+[Basic Commands]
 man - Shows the manual
 Date - Gives date info
 Cal - Gives the Calender
@@ -8,7 +8,6 @@ echo - simply reads the cmdstouch - creates empty files
 1s - list out contents
 1s -l will list the contents in long format
 ls -a - Displays hidden files and folders
-df -h - shows the disk space in human readable format.
 Standard Input < / Standard output >
 Cat - Used to Read/Write/Concatnate - (combining) multiple files
 mkdir - this will create empty directories/folders
@@ -27,7 +26,6 @@ mkdir - this will create empty directories/folders
 mkdir sai{1..100}
 cp - is used to copy files from one location to another location.
 mv - move helps us to move files/folders and also to rename files and folders
-netstat -ntpl
 EDITORS
 vi
 vim
@@ -76,9 +74,11 @@ Alt + n Alt + . use the nth word of the previous command
 Ctrl + c Stop the current job
 Ctrl + z Suspend the current job (send a SIGTSTP signal)
 Ctrl + L clear screen
+df -h - shows the disk space in human readable format.
 pstree -p To list the parent and child process 
 ps -ef (ps command lists all the running processes along with their details such as the UID, PID, PPID, etc)
 ps -fu <username> (command in Linux is used to display information about running processes of specific user)
+netstat -ntpl
 
 AWK COMMAND
 awk '{print $2}' file_name - To see column 2 or 3
