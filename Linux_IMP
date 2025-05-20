@@ -17,3 +17,10 @@ download centos
 got to virtual 
 click new and select new and import centos
 
+Scp(Secure Copy Protocol)in Linux to share file between server to server 
+from Source to target : scp /local/file username@ipaddress:/path
+from target to source : scp -v username@ipaddress:/path/filename
+
+kaliLinux
+its mainly used for cybersecurity 
+in virtual box add linux kali linux iso image which need to be downloaded 
