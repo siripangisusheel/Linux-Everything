@@ -1,0 +1,19 @@
+Linux is a Kernel is the core part of operating system 
+-Features or types
+Centos
+Ubuntu
+redhat
+
+Virtualization:
+__> Hypervisors :its a software that creates and runs virtual machines 
+--> Types of Hypervisor:
+Bare-Matel
+it will setup on hadeware is a mini Os
+
+got to browser:
+virtual box download and install it 
+finish the steps 
+download centos 
+got to virtual 
+click new and select new and import centos
+
