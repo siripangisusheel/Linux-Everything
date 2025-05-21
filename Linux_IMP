@@ -24,3 +24,46 @@ from target to source : scp -v username@ipaddress:/path/filename
 kaliLinux
 its mainly used for cybersecurity 
 in virtual box add linux kali linux iso image which need to be downloaded 
+
+linux--Commands 
+to run linux in root 
+billard.org 
+1:Pwd-(Present Working Directory)
+2:whoami-(To show the current user)
+3:date-(to check date and time)
+4:date +%D(To check only date)
+5:date +%T(To check only Time)
+6:date +%H:%M(To check only Hour and Minute)
+7: ls -(list)
+8: ls -ltr (list  with modificateion date  creation time with permissions) 
+9:clear or crtl+l( to clear the screen in linux)
+10: cat -(to display a file content)
+11: /keyword -(to check the given word after the / in a file with editor)   n -(to check the next present word)
+12: Shift + g (to go to the last line of the file)
+13 : p (to go to the first line of the file)
+14: ? keyword (to check the given word after ? in reverse format in a file editor)
+15: touch filename -(to create file)
+16: less filename -(to read and edit the file in normal format)
+17: more filename -(to read and edit the file in page by page format)
+18: rm -(to remove a file )
+19: vi -(to edit file)
+20: I -(to insert content in file) -- in Vi Editor
+21: esc +:wq (to write and quit in file) --in Vi Editor 
+22: nano filename -(to edit in nano editor) 
+23:mkdir directory name -(to create a directory )
+24:rmdir directory name  -(to remove a directory) or rm -rf directory name 
+25:cd -(to change a directory path)
+26: cd.. -(to go to one step before directory)
+27: cd../.. -(to go two steps back directory)
+28: cp filename /path -(to copy file form one path to other)
+29: cp../filename . -(to copy file from one step back directory to present directory)
+30: cp filename duplicatefilename -(to copy content and paste in new file name)
+31: mv filename /path -(to directly mv the file to the given path)
+32: mv oldfilename  newfilename -(to rename a file)
+33: head -5 filename - (to check the top 5 lines in file)
+34: tail -5 filename -(to check the last 5 lines in file)
+35 sort filename -(to sort the file)
+36: sort -r filename -(to sort the file reverse)
+37: sort filename | uniq -(to remove the duplicates in the file and print the output)
+38 : split -l 4 
+
